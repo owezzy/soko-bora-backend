@@ -1,6 +1,6 @@
-# lemon-mart-swagger-server
+# Soko-Bora-swagger-server
 
-> To Run LemonMart Swagger Server
+> To Run SokoBora Swagger Server
 
 Execute the following commands:
 
