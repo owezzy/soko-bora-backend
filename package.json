@@ -24,13 +24,14 @@
     "docker:open:mac": "echo Trying to launch on MacOS && sleep 2 && URL=http://localhost:$npm_package_config_imagePort/docs && open $URL",
     "docker:debugmessage": "echo Docker Debug Completed Successfully! Hit Ctrl+C to terminate log tailing.",
     "predocker:debug": "run-s -c docker:build docker:run",
-    "docker:debug": "run-s -cs docker:open:win docker:open:mac docker:debugmessage docker:taillogs"
+    "docker:debug": "run-s -cs docker:open:win docker:open:mac docker:debugmessage docker:taillogs",
+    "mock:standalone": "docker run -p 3000:3000 -t owezzy/soko-bora-swagger-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/owezzy/soko-bora-swagger-server.git"
   },
-  "author": "Doguhan Uluca",
+  "author": "Owen Adira",
   "license": "MIT",
   "bugs": {
     "url": "git+https://github.com/owezzy/soko-bora-backend/issues"
