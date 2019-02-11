@@ -80,7 +80,10 @@ parameters:
 
 paths:
   /users:
+    x-swagger-router-controller: "userController"
     get:
+      tags:
+      - userController
       description: |
         Searches and returns `User` objects.
         Optional query params determines values of returned array
