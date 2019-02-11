@@ -15,6 +15,8 @@ produces:
 paths:
   /users:
     get:
+      tags:
+        - userController
       description: "Searches and returns `User` objects.\nOptional query params determines\
         \ values of returned array\n"
       operationId: "usersGET"
