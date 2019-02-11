@@ -80,7 +80,6 @@ parameters:
 
 paths:
   /users:
-    x-swagger-router-controller: "userController"
     get:
       tags:
       - userController
